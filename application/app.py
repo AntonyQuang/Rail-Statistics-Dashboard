@@ -1,8 +1,8 @@
 import dash
 from dash import dcc, html, Input, Output, State
 import dash_bootstrap_components as dbc
-from application.data_manager import toc_list, table_sub_headings, data_tables
-from application.graph_manager import explanations, graph_types, all_tocs_mean_graphs, graph_colours
+from data_manager import toc_list, table_sub_headings, data_tables
+from graph_manager import explanations, graph_types, all_tocs_mean_graphs, graph_colours
 import plotly.express as px
 import plotly.io as pio
 
