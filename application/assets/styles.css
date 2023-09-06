@@ -1,0 +1,17 @@
+.card {
+    background-color: #10151c;
+}
+
+.Select-control {
+    background-color: rgb(20, 23, 26) !important;
+    color:white;
+  }
+
+.Select-menu-outer {
+    background-color: rgb(20, 23, 26);
+    color: white;
+}
+
+.Select-value-label {
+    color: white !important;
+}
