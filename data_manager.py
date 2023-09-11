@@ -1,9 +1,10 @@
 import numpy as np
 import pandas as pd
 
-raw_key_stats_data = pd.read_excel("./data/2200_key_statistics_by_operator.ods", "2200_Key_statistics_by_operator",
+raw_key_stats_data = pd.read_excel("data/2200_key_statistics_by_operator.ods",
+                                   "2200_Key_statistics_by_operator",
                                    engine="odf")
-raw_key_stats_data_2 = pd.read_excel("./data/table-2200_key_statistics_by_operator_2.ods",
+raw_key_stats_data_2 = pd.read_excel("data/table-2200_key_statistics_by_operator_2.ods",
                                      "2200_Key_statistics_by_operator",
                                      engine="odf")
 

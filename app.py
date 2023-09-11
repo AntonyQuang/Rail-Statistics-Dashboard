@@ -6,6 +6,7 @@ from graph_manager import explanations, graph_types, all_tocs_mean_graphs, graph
 import plotly.express as px
 import plotly.io as pio
 
+
 pio.templates.default = "simple_white"
 px.defaults.template = "plotly_dark"
 
@@ -74,7 +75,7 @@ app.layout = dbc.Container(
             dbc.Col([
                 dbc.Row([headings_buttons]),
                 dbc.Row([html.Div("A dashboard that visualises data analysis made on the UK Rail Industry between 2017-2023 \n ")], class_name="my-3 px-4"),
-                dbc.Row([html.A("Detailed Analysis", href="", target="_blank")], class_name="px-4"),
+                dbc.Row([html.A("Detailed Analysis", href="https://colab.research.google.com/drive/19ygzlsQqY0q2sYEHoKQsQTmWNLHB_qQn?usp=sharing", target="_blank")], class_name="px-4"),
                 dbc.Row([html.A("Github", href="https://github.com/AntonyQuang/Rail-Statistics-Dashboard", target="_blank")], class_name="px-4"),
                 dbc.Row([html.A("Portfolio", href="https://antonyquang.github.io/Portfolio-Website/", target="_blank")], class_name="px-4"),
                 dbc.Row([html.Div("Copyright Antony Quang 2023")], class_name="my-3  px-4"),
