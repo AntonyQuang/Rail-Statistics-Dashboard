@@ -53,4 +53,5 @@ This project is licensed under the MIT License (opensource.org/licenses/MIT).
 
 # Status and Roadmap
 
-The application is currently in a functional state, but there is still room for improvement and new features to be added. The project roadmap includes transferring the database to a PostgreSQL database format, improving the website scalability, and integrating email functions.
+The application is currently in a functional state, but there is still room for improvement and new features to be added. 
+The project roadmap includes adding more variables, studying other data sources, and consideration of other countries.
