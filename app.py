@@ -76,6 +76,7 @@ app.layout = dbc.Container(
                 dbc.Row([headings_buttons]),
                 dbc.Row([html.Div("A dashboard that visualises data analysis made on the UK Rail Industry between 2017-2023 \n ")], class_name="my-3 px-4"),
                 dbc.Row([html.A("Detailed Analysis", href="https://colab.research.google.com/drive/19ygzlsQqY0q2sYEHoKQsQTmWNLHB_qQn?usp=sharing", target="_blank")], class_name="px-4"),
+                dbc.Row([html.A("Data Analysis Report", href="https://github.com/AntonyQuang/Rail-Statistics-Dashboard/blob/main/Analysing%20Train%20Operating%20Company%20Data%20in%20the%20UK%20Railway%20Industry.pdf", target="_blank")], class_name="px-4"),
                 dbc.Row([html.A("Github", href="https://github.com/AntonyQuang/Rail-Statistics-Dashboard", target="_blank")], class_name="px-4"),
                 dbc.Row([html.A("Portfolio", href="https://antonyquang.github.io/Portfolio-Website/", target="_blank")], class_name="px-4"),
                 dbc.Row([html.Div("Copyright Antony Quang 2023")], class_name="my-3  px-4"),
