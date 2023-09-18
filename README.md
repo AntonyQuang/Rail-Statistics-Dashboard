@@ -1,4 +1,4 @@
-# Allergy Menu Map
+#UK Rail Industry Statistics Dashboard
 https://antonyquang.pythonanywhere.com/
 
 Data analysis project that explores the UK rail industry and how it has been impacted by COVID-19.
